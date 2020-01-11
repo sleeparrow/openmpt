@@ -104,7 +104,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>OpenMPT</RootNamespace>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -112,7 +112,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -120,7 +120,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
@@ -128,7 +128,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
     <WindowsSDKDesktopARMSupport>true</WindowsSDKDesktopARMSupport>
   </PropertyGroup>
@@ -137,7 +137,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
     <WindowsSDKDesktopARM64Support>true</WindowsSDKDesktopARM64Support>
   </PropertyGroup>
@@ -146,7 +146,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <SpectreMitigation>Spectre</SpectreMitigation>
   </PropertyGroup>
@@ -155,7 +155,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <SpectreMitigation>Spectre</SpectreMitigation>
   </PropertyGroup>
@@ -164,7 +164,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <SpectreMitigation>Spectre</SpectreMitigation>
     <WindowsSDKDesktopARMSupport>true</WindowsSDKDesktopARMSupport>
@@ -174,7 +174,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <SpectreMitigation>Spectre</SpectreMitigation>
     <WindowsSDKDesktopARM64Support>true</WindowsSDKDesktopARM64Support>
@@ -184,7 +184,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Checked|x64'" Label="Configuration">
@@ -192,7 +192,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Checked|ARM'" Label="Configuration">
@@ -200,7 +200,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
     <WindowsSDKDesktopARMSupport>true</WindowsSDKDesktopARMSupport>
   </PropertyGroup>
@@ -209,7 +209,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
     <WindowsSDKDesktopARM64Support>true</WindowsSDKDesktopARM64Support>
   </PropertyGroup>
@@ -218,7 +218,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugShared|x64'" Label="Configuration">
@@ -226,7 +226,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugShared|ARM'" Label="Configuration">
@@ -234,7 +234,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
     <WindowsSDKDesktopARMSupport>true</WindowsSDKDesktopARMSupport>
   </PropertyGroup>
@@ -243,7 +243,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
     <WindowsSDKDesktopARM64Support>true</WindowsSDKDesktopARM64Support>
   </PropertyGroup>
@@ -252,7 +252,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <SpectreMitigation>Spectre</SpectreMitigation>
   </PropertyGroup>
@@ -261,7 +261,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <SpectreMitigation>Spectre</SpectreMitigation>
   </PropertyGroup>
@@ -270,7 +270,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <SpectreMitigation>Spectre</SpectreMitigation>
     <WindowsSDKDesktopARMSupport>true</WindowsSDKDesktopARMSupport>
@@ -280,7 +280,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <SpectreMitigation>Spectre</SpectreMitigation>
     <WindowsSDKDesktopARM64Support>true</WindowsSDKDesktopARM64Support>
@@ -290,7 +290,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CheckedShared|x64'" Label="Configuration">
@@ -298,7 +298,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CheckedShared|ARM'" Label="Configuration">
@@ -306,7 +306,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
     <WindowsSDKDesktopARMSupport>true</WindowsSDKDesktopARMSupport>
   </PropertyGroup>
@@ -315,7 +315,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <SpectreMitigation>Spectre</SpectreMitigation>
     <WindowsSDKDesktopARM64Support>true</WindowsSDKDesktopARM64Support>
   </PropertyGroup>
