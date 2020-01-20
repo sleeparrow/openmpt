@@ -64,7 +64,7 @@ void ApplyTransposeKeyboardSetting(CMainFrame &rMainFrm, uint32 &dwParam1)
 			if (note < 0x80)
 			{
 				note += nTranspose * 12;
-				Limit(note, 0, NOTE_MAX - NOTE_MIN);
+				Limit(note, 0, (int)(NOTE_MAX - NOTE_MIN));
 
 				dwParam1 &= 0xffff00ff;
 

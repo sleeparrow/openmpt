@@ -20,7 +20,7 @@ OPENMPT_NAMESPACE_BEGIN
 class CSoundFile;
 
 // Note definitions
-enum : uint8 // ModCommand::NOTE
+enum : uint32 // ModCommand::NOTE
 {
 	NOTE_NONE        = 0,    // Empty note cell
 	NOTE_MIN         = 1,    // Minimum note value
