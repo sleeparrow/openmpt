@@ -20,21 +20,32 @@ OPENMPT_NAMESPACE_BEGIN
 class CSoundFile;
 
 // Note definitions
-enum : uint32 // ModCommand::NOTE
-{
-	NOTE_NONE        = 0,    // Empty note cell
-	NOTE_MIN         = 1,    // Minimum note value
-	NOTE_MAX         = 120,  // Maximum note value
-	NOTE_MIDDLEC     = (5 * 12 + NOTE_MIN),
-	NOTE_KEYOFF      = 0xFF, // === (Note Off, releases envelope / fades samples, stops plugin note)
-	NOTE_NOTECUT     = 0xFE, // ^^^ (Cuts sample / stops all plugin notes)
-	NOTE_FADE        = 0xFD, // ~~~ (Fades samples, stops plugin note)
-	NOTE_PC          = 0xFC, // Param Control 'note'. Changes param value on first tick.
-	NOTE_PCS         = 0xFB, // Param Control (Smooth) 'note'. Interpolates param value during the whole row.
-	NOTE_MIN_SPECIAL = NOTE_PCS,
-	NOTE_MAX_SPECIAL = NOTE_KEYOFF,
-};
+//enum : uint32 // ModCommand::NOTE
+//{
+//	NOTE_NONE        = 0,    // Empty note cell
+//	NOTE_MIN         = 1,    // Minimum note value
+//	NOTE_MAX         = 120,  // Maximum note value
+//	NOTE_MIDDLEC     = (5 * 12 + NOTE_MIN),
+//	NOTE_KEYOFF      = 0xFF, // === (Note Off, releases envelope / fades samples, stops plugin note)
+//	NOTE_NOTECUT     = 0xFE, // ^^^ (Cuts sample / stops all plugin notes)
+//	NOTE_FADE        = 0xFD, // ~~~ (Fades samples, stops plugin note)
+//	NOTE_PC          = 0xFC, // Param Control 'note'. Changes param value on first tick.
+//	NOTE_PCS         = 0xFB, // Param Control (Smooth) 'note'. Interpolates param value during the whole row.
+//	NOTE_MIN_SPECIAL = NOTE_PCS,
+//	NOTE_MAX_SPECIAL = NOTE_KEYOFF,
+//};
 
+constexpr double NOTE_NONE        = 0.0;
+constexpr double NOTE_MIN         = DBL_TRUE_MIN;
+constexpr double NOTE_MAX         = 30000.0;
+constexpr double NOTE_MIDDLEC     = 261.6255653005986;
+constexpr double NOTE_KEYOFF      = -1.0;
+constexpr double NOTE_NOTECUT     = -2.0;
+constexpr double NOTE_FADE        = -3.0;
+constexpr double NOTE_PC          = -4.0;
+constexpr double NOTE_PCS         = -5.0;
+constexpr double NOTE_MIN_SPECIAL = NOTE_PCS;
+constexpr double NOTE_MAX_SPECIAL = NOTE_KEYOFF;
 
 // Volume Column commands
 enum VolumeCommand : uint8
@@ -123,7 +134,7 @@ enum EffectType : uint8
 class ModCommand
 {
 public:
-	typedef uint8 NOTE;
+	typedef double NOTE;
 	typedef uint8 INSTR;
 	typedef uint8 VOL;
 	typedef uint8 VOLCMD;

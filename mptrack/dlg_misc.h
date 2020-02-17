@@ -177,8 +177,8 @@ protected:
 	bool m_mouseCapture = false, m_cursorNotify = false;
 	bool m_mouseDown = false;
 
-	uint8 KeyFlags[NOTE_MAX]; // 10 octaves max
-	SAMPLEINDEX m_sampleNum[NOTE_MAX];
+	uint8 KeyFlags[(int)NOTE_MAX]; // 10 octaves max
+	SAMPLEINDEX m_sampleNum[(int)NOTE_MAX];
 
 public:
 	CKeyboardControl() = default;
@@ -221,7 +221,7 @@ protected:
 	CSliderCtrl m_SbOctave;
 	CSoundFile &sndFile;
 	INSTRUMENTINDEX m_nInstrument;
-	SAMPLEINDEX KeyboardMap[NOTE_MAX];
+	SAMPLEINDEX KeyboardMap[(int)NOTE_MAX];
 	MouseAction mouseAction;
 
 public:
